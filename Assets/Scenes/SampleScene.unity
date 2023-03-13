@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 1114976897}
   - component: {fileID: 1114976899}
   - component: {fileID: 1114976900}
+  - component: {fileID: 1114976901}
   m_Layer: 0
   m_Name: Exercises
   m_TagString: Untagged
@@ -376,6 +377,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 0
   _value: {fileID: 2108234965}
+--- !u!114 &1114976901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114976896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a821004b949d0458f1156b5b8744ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1669227794
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,11 +422,11 @@ RectTransform:
   m_Father: {fileID: 1923629185}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1669227796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -698,7 +711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2108234964
 RectTransform:
   m_ObjectHideFlags: 0
